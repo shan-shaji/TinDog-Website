@@ -150,6 +150,36 @@ padding: 3% 2%;
 
 }
 
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+
+/* footer */
+
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15%;   
+}
+
+.icons-footer  i{
+    margin: 10px 10px;
+}
 /* Media Queries */
 
 @media (max-width: 1200px){
@@ -164,6 +194,7 @@ padding: 3% 2%;
 
     transform: none;
     position: static;
+    margin-top: 24px;
   
 }
 
