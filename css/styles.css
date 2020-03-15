@@ -1,0 +1,170 @@
+#title{
+   color: #fff;
+    background-color: #ff4c68;
+}
+
+
+body{
+    font-family:'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    padding: 3% 15%;   
+}
+
+.main-tittle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+   
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding:0px 0px 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+
+.download-button{
+    margin: 5% 3% 0px 0px;
+}
+
+
+/* Title-image */
+
+
+.tittle-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+  
+}
+
+
+
+/* features */
+
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+   
+}
+ .features-content h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.features-container {
+  padding: 0px;
+    
+} 
+.features-content i{
+    margin-bottom: 10px;
+    color: #ef8172;
+}
+.features-content i:hover{
+    color: #ff4c68;
+}
+
+.element{
+  text-align: center;
+  padding: 5%;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+/* Testimonials  */
+
+
+#testimonials{
+    
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+   
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 2;
+    padding: auto 5%;
+}
+
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.press-icons{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-coloumn{
+padding: 3% 2%;
+
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px){
+    
+
+    #title{
+        text-align: center;
+    }
+
+    
+.tittle-image{
+
+    transform: none;
+    position: static;
+  
+}
+
+}
